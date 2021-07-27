@@ -7,8 +7,9 @@ resource "aws_instance" "ganesh" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "Ganesh"
+    Name = "Hari-Ganesh"
     Env = "prod"
+
   }
 }
 
